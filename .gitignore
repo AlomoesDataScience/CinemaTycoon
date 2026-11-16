@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.saves/
+.pytest_cache/
+build/
+dist/
+*.zip
+python-3.10.11-amd64.exe
+python_win/
+wine-9.0-amd64/
+wine-9.0-amd64.tar.xz

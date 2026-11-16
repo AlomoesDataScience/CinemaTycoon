@@ -1,0 +1,1029 @@
+{
+  "genres": {
+    "Drama": [
+      "Family",
+      "Courtroom",
+      "Period",
+      "Biography",
+      "Melodrama",
+      "Social"
+    ],
+    "Comedy": [
+      "Slapstick",
+      "Satire",
+      "Romantic",
+      "Screwball",
+      "Parody",
+      "Dark Comedy"
+    ],
+    "Adventure": [
+      "Expedition",
+      "Swashbuckler",
+      "Survival",
+      "Treasure Hunt",
+      "Maritime",
+      "Wilderness"
+    ],
+    "Mystery": [
+      "Detective",
+      "Whodunit",
+      "Conspiracy",
+      "Noir",
+      "Espionage",
+      "Psychological Thriller"
+    ],
+    "Horror": [
+      "Gothic",
+      "Creature",
+      "Psychological",
+      "Haunted House",
+      "Body Horror",
+      "Occult"
+    ],
+    "Science Fiction": [
+      "Space",
+      "Invention",
+      "Dystopian",
+      "Time Travel",
+      "Alien Contact",
+      "Cybernetic"
+    ]
+  },
+  "title_grammars": {
+    "Drama": {
+      "templates": [
+        "The {adj} {noun} of {place}",
+        "A Letter from {place}",
+        "The Long {time_unit}",
+        "{season} in {city}",
+        "The Measure of a {role}",
+        "Days of {abstract_noun}",
+        "The {adj} Inheritance",
+        "Between Two {plural_noun}",
+        "The Silent {noun}",
+        "Shadows of {abstract_noun}",
+        "Farewell to {place}",
+        "The Price of {abstract_noun}",
+        "The {family_role}'s Secret"
+      ],
+      "vocabulary": {
+        "adj": [
+          "Broken",
+          "Quiet",
+          "Bitter",
+          "Golden",
+          "Wandering",
+          "Fragile",
+          "Distant",
+          "Humble",
+          "Proud",
+          "Solemn",
+          "Restless",
+          "Forgotten"
+        ],
+        "noun": [
+          "Promise",
+          "Heart",
+          "Home",
+          "Tapestry",
+          "Memory",
+          "Legacy",
+          "Song",
+          "Silence",
+          "Hour",
+          "Portrait",
+          "Winter",
+          "Road"
+        ],
+        "place": [
+          "Oak Valley",
+          "Orchard Street",
+          "the Delta",
+          "Riverbend",
+          "Willow Creek",
+          "Maple Hill",
+          "the Harbor",
+          "Briar Rose",
+          "the Old Mill"
+        ],
+        "time_unit": [
+          "Road",
+          "Journey",
+          "Shadow",
+          "Night",
+          "Winter",
+          "Silence",
+          "Year",
+          "Season"
+        ],
+        "season": [
+          "Autumn",
+          "Spring",
+          "Winter",
+          "Summer",
+          "Midnight",
+          "Twilight"
+        ],
+        "city": [
+          "Vienna",
+          "Chicago",
+          "Savannah",
+          "Paris",
+          "Boston",
+          "Montreal",
+          "New Orleans",
+          "Dublin"
+        ],
+        "role": [
+          "Father",
+          "Mother",
+          "Stranger",
+          "Teacher",
+          "Doctor",
+          "Worker",
+          "Soldier",
+          "Widow",
+          "Citizen"
+        ],
+        "abstract_noun": [
+          "Devotion",
+          "Grace",
+          "Regret",
+          "Ambition",
+          "Honesty",
+          "Doubt",
+          "Honor",
+          "Forgiveness",
+          "Pride"
+        ],
+        "plural_noun": [
+          "Fires",
+          "Worlds",
+          "Rivers",
+          "Generations",
+          "Storms",
+          "Shores",
+          "Silences"
+        ],
+        "family_role": [
+          "Sister",
+          "Brother",
+          "Mother",
+          "Father",
+          "Daughter",
+          "Son",
+          "Patriarch",
+          "Matriarch"
+        ]
+      }
+    },
+    "Comedy": {
+      "templates": [
+        "Trouble in {place}",
+        "Meet the {plural_surname}",
+        "The Great {caper_noun} Caper",
+        "One {funny_adj} Afternoon",
+        "Too Many {comic_plural}",
+        "How to {verb} a {target}",
+        "{funny_name}'s Big Day",
+        "Love and Other {comic_plural}",
+        "Don't Tell the {authority}",
+        "A {funny_adj} Kind of Fool",
+        "The Misadventures of {funny_name}",
+        "Stop That {vehicle}!"
+      ],
+      "vocabulary": {
+        "place": [
+          "Paradise",
+          "Pasadena",
+          "Palm Springs",
+          "the Big City",
+          "Suburbs",
+          "the Country Club",
+          "Boarding School",
+          "the Grand Hotel"
+        ],
+        "plural_surname": [
+          "Bickertons",
+          "Potters",
+          "Hapgoods",
+          "Flanigans",
+          "Penningtons",
+          "Bumbles",
+          "Quimskys",
+          "Twiddletons"
+        ],
+        "caper_noun": [
+          "Diamond",
+          "Pickle",
+          "Poodle",
+          "Wedding",
+          "Fortune",
+          "Inheritance",
+          "Pancake",
+          "Museum"
+        ],
+        "funny_adj": [
+          "Hectic",
+          "Goofy",
+          "Madcap",
+          "Bungled",
+          "Frantic",
+          "Preposterous",
+          "Unruly",
+          "Chaotic"
+        ],
+        "comic_plural": [
+          "Cooks",
+          "Detectives",
+          "Brides",
+          "Troubles",
+          "Inventions",
+          "Husbands",
+          "Disasters",
+          "Lawyers"
+        ],
+        "verb": [
+          "Catch",
+          "Marry",
+          "Swindle",
+          "Befriend",
+          "Outsmart",
+          "Confuse",
+          "Dodge"
+        ],
+        "target": [
+          "Millionaire",
+          "Burglar",
+          "Duchess",
+          "Ghost",
+          "Mayor",
+          "In-Law",
+          "Detective"
+        ],
+        "funny_name": [
+          "Barnaby",
+          "Penelope",
+          "Archie",
+          "Fifi",
+          "Otis",
+          "Buster",
+          "Clarissa",
+          "Gus"
+        ],
+        "authority": [
+          "Judge",
+          "Inspector",
+          "Principal",
+          "Admiral",
+          "Landlord",
+          "Mother-in-Law"
+        ],
+        "vehicle": [
+          "Cab",
+          "Train",
+          "Zeppelin",
+          "Steamship",
+          "Hearse",
+          "Bicycle"
+        ]
+      }
+    },
+    "Adventure": {
+      "templates": [
+        "Journey to {lost_place}",
+        "The Lost {artifact} of {civilization}",
+        "Across the {wilderness}",
+        "The Isle of {danger_noun}",
+        "Riders of {terrain}",
+        "The {heroic_adj} Voyage",
+        "Treasure of {lost_place}",
+        "Escape from {peril_place}",
+        "Beyond the {horizon_noun}",
+        "The {adventurer_role} of {lost_place}"
+      ],
+      "vocabulary": {
+        "lost_place": [
+          "the Skeleton Coast",
+          "the Forbidden Valley",
+          "Zululand",
+          "the Amazon",
+          "El Dorado",
+          "the Coral Reef",
+          "Mount Thunder",
+          "the Frozen North"
+        ],
+        "artifact": [
+          "Crown",
+          "Scepter",
+          "Amulet",
+          "Idol",
+          "Compass",
+          "Jewel",
+          "Map",
+          "Tome",
+          "Sword"
+        ],
+        "civilization": [
+          "the Pharaohs",
+          "the Inca",
+          "the Lost Legion",
+          "Atlantis",
+          "the Khan",
+          "the Sun Kings",
+          "the Deep Jungle"
+        ],
+        "wilderness": [
+          "Seven Seas",
+          "Great Divide",
+          "Endless Dunes",
+          "Congo",
+          "Siberian Plains",
+          "Roaring Rapids",
+          "Crimson Gorge"
+        ],
+        "danger_noun": [
+          "Doom",
+          "Serpents",
+          "Skulls",
+          "Tempests",
+          "Cannibals",
+          "Volcanoes",
+          "Monkeys",
+          "Ghosts"
+        ],
+        "terrain": [
+          "the High Sierra",
+          "the Painted Desert",
+          "the Badlands",
+          "the Yukon",
+          "the Wind River",
+          "the Canyons"
+        ],
+        "heroic_adj": [
+          "Perilous",
+          "Gallant",
+          "Daring",
+          "Untamed",
+          "Defiant",
+          "Magnificent",
+          "Fearless"
+        ],
+        "peril_place": [
+          "Devil's Island",
+          "the Sunken Fortress",
+          "the Jungle Tomb",
+          "Pirate Bay",
+          "the Mountain of Fire"
+        ],
+        "horizon_noun": [
+          "Setting Sun",
+          "Frozen Sea",
+          "Edge of the World",
+          "Storm Clouds",
+          "Great Divide"
+        ],
+        "adventurer_role": [
+          "Scout",
+          "Captain",
+          "Navigator",
+          "Hunter",
+          "Pathfinder",
+          "Ranger"
+        ]
+      }
+    },
+    "Mystery": {
+      "templates": [
+        "The {crime_adj} {crime_noun}",
+        "{verb_imperative} Me a Alibi",
+        "Shadows over {proper_city}",
+        "The Secret of {proper_estate}",
+        "No {crime_noun} for {victim_type}",
+        "Death in the {mystery_location}",
+        "The {detective_role}'s Casebook",
+        "Midnight in {proper_city}",
+        "The Man Who Knew {abstract_thing}",
+        "Footsteps in the {atmosphere}",
+        "The {crime_adj} Cipher"
+      ],
+      "vocabulary": {
+        "crime_adj": [
+          "Crooked",
+          "Midnight",
+          "Velvet",
+          "Gilded",
+          "Bleeding",
+          "Fatal",
+          "Silent",
+          "Missing",
+          "Twisted",
+          "Unseen",
+          "Hollow"
+        ],
+        "crime_noun": [
+          "Alibi",
+          "Badge",
+          "Mirror",
+          "Key",
+          "Witness",
+          "Shadow",
+          "Lover",
+          "Envelope",
+          "Corpse",
+          "Bullet",
+          "Mask"
+        ],
+        "verb_imperative": [
+          "Leave",
+          "Call",
+          "Whisper",
+          "Sell",
+          "Bribe",
+          "Hand"
+        ],
+        "proper_city": [
+          "Chinatown",
+          "Manhattan",
+          "San Francisco",
+          "London",
+          "Chicago",
+          "Havana",
+          "New Orleans"
+        ],
+        "proper_estate": [
+          "Bly Manor",
+          "Blackwood Hall",
+          "Falconer Ridge",
+          "the Blue Room",
+          "Cypress House",
+          "Raven's Gate"
+        ],
+        "victim_type": [
+          "a Lady",
+          "the Innocent",
+          "a Sinner",
+          "the Hangman",
+          "a Detective",
+          "the Groom",
+          "a Banker"
+        ],
+        "mystery_location": [
+          "Fog",
+          "Parlor",
+          "Club Car",
+          "Cellar",
+          "Cathedral",
+          "Docks",
+          "Boardroom",
+          "Lighthouse"
+        ],
+        "detective_role": [
+          "Inspector",
+          "Private Eye",
+          "Coroner",
+          "Constable",
+          "Profiler",
+          "Attorney"
+        ],
+        "abstract_thing": [
+          "Too Much",
+          "the Truth",
+          "the Motive",
+          "Nothing",
+          "the Name",
+          "the Secret"
+        ],
+        "atmosphere": [
+          "Fog",
+          "Rain",
+          "Darkness",
+          "Alley",
+          "Belfry",
+          "Courtyard"
+        ]
+      }
+    },
+    "Horror": {
+      "templates": [
+        "The Curse of {monster_origin}",
+        "House of {horror_noun}",
+        "Whispers in the {creepy_place}",
+        "The {creepy_adj} {horror_creature}",
+        "Night of the {horror_creature}",
+        "Beneath {creepy_place}",
+        "The Haunting at {estate_name}",
+        "The {dark_adj} Sacrament",
+        "They Come from the {dark_origin}",
+        "The Thing in the {creepy_room}"
+      ],
+      "vocabulary": {
+        "monster_origin": [
+          "the Pharaoh",
+          "the Deep Woods",
+          "Blackwood",
+          "the Crypt",
+          "the Asylum",
+          "the Bloodline",
+          "the Swamp"
+        ],
+        "horror_noun": [
+          "Wax",
+          "Skulls",
+          "Madness",
+          "Shadows",
+          "the Damned",
+          "Torment",
+          "Dust",
+          "the Dead"
+        ],
+        "creepy_place": [
+          "Cemetery",
+          "Cellar",
+          "Belfry",
+          "Mausoleum",
+          "Catacombs",
+          "Fog",
+          "Abyss",
+          "Morgue"
+        ],
+        "creepy_adj": [
+          "Crawling",
+          "Ghastly",
+          "Lurking",
+          "Pale",
+          "Vengeful",
+          "Faceless",
+          "Shrouded",
+          "Unholy",
+          "Screaming"
+        ],
+        "horror_creature": [
+          "Gargoyle",
+          "Specter",
+          "Vampire",
+          "Phantom",
+          "Beast",
+          "Abomination",
+          "Fiend",
+          "Doppelganger"
+        ],
+        "estate_name": [
+          "Hill House",
+          "Blackwood Manor",
+          "Ravenscroft",
+          "Willow's End",
+          "Gallows Point",
+          "the Asylum"
+        ],
+        "dark_adj": [
+          "Unhallowed",
+          "Forbidden",
+          "Dread",
+          "Sinister",
+          "Bleeding",
+          "Infernal"
+        ],
+        "dark_origin": [
+          "Darkness",
+          "Grave",
+          "Deep",
+          "Shadows",
+          "Beyond",
+          "Void"
+        ],
+        "creepy_room": [
+          "Attic",
+          "Furnace Room",
+          "Mirror",
+          "Well",
+          "Crypt",
+          "Wardrobe",
+          "Drain"
+        ]
+      }
+    },
+    "Science Fiction": {
+      "templates": [
+        "Beyond {cosmic_noun}",
+        "The {scifi_adj} Planet",
+        "Chronicles of {star_system}",
+        "The {tech_noun} Experiment",
+        "Escape from {scifi_place}",
+        "Children of {future_concept}",
+        "The Last {cosmic_entity}",
+        "Project: {code_name}",
+        "Destination: {planet_name}",
+        "The Day {earth_event}"
+      ],
+      "vocabulary": {
+        "cosmic_noun": [
+          "the Stars",
+          "the Nebula",
+          "Tomorrow",
+          "the Void",
+          "the Event Horizon",
+          "Infinity",
+          "the Solar Flares"
+        ],
+        "scifi_adj": [
+          "Forbidden",
+          "Mechanical",
+          "Radioactive",
+          "Synthetic",
+          "Clockwork",
+          "Galactic",
+          "Hollow",
+          "Quantum",
+          "Cybernetic"
+        ],
+        "star_system": [
+          "Alpha Centauri",
+          "Orion",
+          "Sirius IX",
+          "Proxima",
+          "the Pleiades",
+          "Andromeda"
+        ],
+        "tech_noun": [
+          "Synapse",
+          "Sub-Atomic",
+          "Chronos",
+          "Matter",
+          "Genetic",
+          "Gravity",
+          "Titan"
+        ],
+        "scifi_place": [
+          "Sector 4",
+          "Omega Station",
+          "the Moon Base",
+          "the Dyson Ring",
+          "Sub-Level 6",
+          "the Sunken Biosphere"
+        ],
+        "future_concept": [
+          "Tomorrow",
+          "the Machine",
+          "the Apocalypse",
+          "the Wasteland",
+          "the Clone Age",
+          "the Singularity"
+        ],
+        "cosmic_entity": [
+          "Astronaut",
+          "Starliner",
+          "Colony",
+          "Martian",
+          "Android",
+          "Computer",
+          "Synthezoid"
+        ],
+        "code_name": [
+          "Icarus",
+          "Prometheus",
+          "Genesis",
+          "Chimera",
+          "Nemesis",
+          "Vanguard",
+          "Zero Hour"
+        ],
+        "planet_name": [
+          "Mars",
+          "Titan",
+          "Venus",
+          "Kepler-22",
+          "Europa",
+          "Planet X"
+        ],
+        "earth_event": [
+          "the Sky Fell",
+          "the Machines Woke",
+          "the Sun Died",
+          "the World Froze",
+          "Time Stopped"
+        ]
+      }
+    }
+  },
+  "logline_components": {
+    "Drama": {
+      "templates": [
+        "The story follows {protagonist} who {incident} {complication} {stakes}.",
+        "When {protagonist} {incident}, they must fight back {complication} {stakes}.",
+        "In this gripping tale, {protagonist} {incident}. But {complication} {stakes}.",
+        "{protagonist} {incident}, {complication} {stakes}."
+      ],
+      "vocabulary": {
+        "protagonist": [
+          "an aging union organizer struggling with failing health",
+          "a determined seamstress fighting for custody of her children",
+          "a disgraced judge seeking redemption in a small border town",
+          "a war veteran trying to rebuild an abandoned family farm",
+          "a gifted concert pianist coping with sudden hearing loss",
+          "a widowed immigrant opening a restaurant against local hostility"
+        ],
+        "incident": [
+          "discovers a bundle of uncashed checks hidden in an heirloom desk",
+          "is confronted by an estranged sibling bearing an urgent confession",
+          "receives an eviction notice on the eve of a brutal winter",
+          "unearths a buried adoption record that alters family lineage",
+          "is offered a lucrative bribe to testify against a lifelong neighbor"
+        ],
+        "complication": [
+          "while town gossip turns longtime friends into vocal accusers",
+          "as a relentless corporate foreclosure team closes in",
+          "despite mounting medical bills that threaten their livelihood",
+          "while ancient family rivalries ignite into public scandal",
+          "as memories of a forgotten tragedy resurface to haunt the community"
+        ],
+        "stakes": [
+          "to salvage what remains of the family dignity",
+          "before the winter bank auction destroys the estate",
+          "in a desperate bid to reconcile with their only child",
+          "to prove that some debts cannot be paid in cash",
+          "before the local mill whistle sounds for the final time"
+        ]
+      }
+    },
+    "Comedy": {
+      "templates": [
+        "The story follows {protagonist} who {incident} {complication} {stakes}.",
+        "When {protagonist} {incident}, they must fight back {complication} {stakes}.",
+        "In this gripping tale, {protagonist} {incident}. But {complication} {stakes}.",
+        "{protagonist} {incident}, {complication} {stakes}."
+      ],
+      "vocabulary": {
+        "protagonist": [
+          "an anxious hotel concierge terrified of wealthy guests",
+          "a bumbling door-to-door vacuum salesman with big dreams",
+          "two scheming grifters who accidentally enter a ballroom dance contest",
+          "an eccentric inventor whose contraptions cause harmless municipal havoc",
+          "a haughty society columnist forced to work a real diner shift",
+          "a timid bank clerk who gets mistaken for an international jewel thief"
+        ],
+        "incident": [
+          "accidentally swaps luggage with a notorious mob courier",
+          "takes a bet to pass off an unruly street dog as a royal champion",
+          "signs a contract to cater a lavish banquet with zero culinary skill",
+          "inherits a dilapidated circus troupe on the verge of mutiny",
+          "promises their fiance's parents an imaginary mansion for the weekend"
+        ],
+        "complication": [
+          "while dodging a suspicious hotel detective with an eagle eye",
+          "as slapstick misunderstandings spiral into a citywide chase",
+          "while a troupe of performing monkeys wreaks havoc in the lobby",
+          "as rival con artists try to steal the very same prize",
+          "while trying to keep their furious twin brother in the closet"
+        ],
+        "stakes": [
+          "before the wedding bells ring and the jig is up",
+          "to win the $10,000 sweepstakes and pay off the mortgage",
+          "before the health inspector arrives with the mayor in tow",
+          "in a frantic attempt to preserve their absurd double identity",
+          "before the evening gala turns into complete, glorious chaos"
+        ]
+      }
+    },
+    "Adventure": {
+      "templates": [
+        "The story follows {protagonist} who {incident} {complication} {stakes}.",
+        "When {protagonist} {incident}, they must fight back {complication} {stakes}.",
+        "In this gripping tale, {protagonist} {incident}. But {complication} {stakes}.",
+        "{protagonist} {incident}, {complication} {stakes}."
+      ],
+      "vocabulary": {
+        "protagonist": [
+          "a grizzled deep-sea diver with a map tattooed on his arm",
+          "an intrepid female aviator flying solo across hostile territory",
+          "a charismatic swashbuckler hunted by royal naval galleons",
+          "a rugged wilderness tracker hired to rescue a lost expedition",
+          "an archeologist who refuses to carry a gun into uncharted ruins",
+          "a disgraced naval officer given one last command on a leaky vessel"
+        ],
+        "incident": [
+          "recovers a golden astrolabe from a reef-wrecked Spanish galleon",
+          "survives a crash landing deep in the cannibal-infested jungle",
+          "intercepts an encoded parchment describing a hidden tomb of gems",
+          "is betrayed by a greedy patron midway through an Amazon crossing",
+          "agrees to guide a wealthy heiress past savage mountain tribes"
+        ],
+        "complication": [
+          "while surviving flash floods, quicksand, and poisonous darts",
+          "as a ruthless rival syndicate stalks them with superior firepower",
+          "while a mutinous crew threatens to seize the cargo by force",
+          "as volcanic tremors threaten to submerge the entire temple island",
+          "while navigating uncharted rapids that have swallowed every previous crew"
+        ],
+        "stakes": [
+          "to secure the legendary treasure before the monsoon strikes",
+          "to escape the forbidden valley before the volcano erupts",
+          "to deliver the sacred relic to its rightful ancient temple",
+          "before the mercenary army claims the lost city for the empire",
+          "to return home alive with proof of a lost world"
+        ]
+      }
+    },
+    "Mystery": {
+      "templates": [
+        "The story follows {protagonist} who {incident} {complication} {stakes}.",
+        "When {protagonist} {incident}, they must fight back {complication} {stakes}.",
+        "In this gripping tale, {protagonist} {incident}. But {complication} {stakes}.",
+        "{protagonist} {incident}, {complication} {stakes}."
+      ],
+      "vocabulary": {
+        "protagonist": [
+          "a cynical private eye who works out of a smoky basement office",
+          "a meticulous police coroner who notices an impossible wound",
+          "a retired safe-cracker drawn into one final diplomatic break-in",
+          "an investigative reporter digging into municipal graft",
+          "a brilliant defense attorney representing an uncooperative client",
+          "a reclusive cryptographer who decodes an anonymous telegram"
+        ],
+        "incident": [
+          "is hired by a veiled woman who vanishes before giving her real name",
+          "finds a dead tycoon locked inside a reinforced penthouse vault",
+          "discovers a list of compromised city councilmen inside a music box",
+          "witnesses a hit-and-run that matches an unsolved killing from 1952",
+          "receives a package containing a bloody monogrammed cufflink"
+        ],
+        "complication": [
+          "while crooked precinct captains warn them off the case",
+          "as every prime suspect presents a seemingly airtight alibi",
+          "while an unseen marksman eliminates witnesses one by one",
+          "as the investigation implicates the chief of police himself",
+          "while trapped in a storm-isolated mansion where anyone could be the killer"
+        ],
+        "stakes": [
+          "to expose the conspiracy before they become the next corpse",
+          "before the jury delivers a wrongful verdict of the death penalty",
+          "to uncover the mastermind before the last train leaves the depot",
+          "before an innocent scapegoat hangs for a syndicate crime",
+          "to learn the terrible truth hidden in the shadows of the precinct"
+        ]
+      }
+    },
+    "Horror": {
+      "templates": [
+        "The story follows {protagonist} who {incident} {complication} {stakes}.",
+        "When {protagonist} {incident}, they must fight back {complication} {stakes}.",
+        "In this gripping tale, {protagonist} {incident}. But {complication} {stakes}.",
+        "{protagonist} {incident}, {complication} {stakes}."
+      ],
+      "vocabulary": {
+        "protagonist": [
+          "a skeptical psychiatrist assigned to an isolated sanitarium",
+          "an antique restorer who purchases an obsidian occult mirror",
+          "a young governess arriving at a fog-drenched gothic estate",
+          "a rural coroner examining a body dredged from a blackwater swamp",
+          "a priest struggling with a crisis of faith in an abandoned parish",
+          "a family moving into a grand ancestral house with walled-off chambers"
+        ],
+        "incident": [
+          "unseals a bricked-up cellar door marked with warning wards",
+          "translates an unholy grimoire bound in leathery parchment",
+          "notices that the estate portrait's eyes follow people across the room",
+          "hears midnight scratching echoing from inside the plaster walls",
+          "discovers that the local villagers conduct silent rituals at the full moon"
+        ],
+        "complication": [
+          "as waking nightmares begin bleeding into cold daylight reality",
+          "while telephone lines go dead and mountain roads wash away in blood-red mud",
+          "as an ancient presence systematically possesses the household servants",
+          "while dark visions reveal the monstrous sins of the estate's founders",
+          "as a foul stench of decay rises from beneath the floorboards"
+        ],
+        "stakes": [
+          "to survive the nocturnal onslaught before dawn arrives",
+          "to banish the primordial terror before it claims their soul",
+          "before the blood moon ritual is completed at midnight",
+          "to escape the cursed valley before madness claims them forever",
+          "before the entity tears down the veil between our world and the abyss"
+        ]
+      }
+    },
+    "Science Fiction": {
+      "templates": [
+        "The story follows {protagonist} who {incident} {complication} {stakes}.",
+        "When {protagonist} {incident}, they must fight back {complication} {stakes}.",
+        "In this gripping tale, {protagonist} {incident}. But {complication} {stakes}.",
+        "{protagonist} {incident}, {complication} {stakes}."
+      ],
+      "vocabulary": {
+        "protagonist": [
+          "a solitary deep-space beacon operator orbiting Saturn's rings",
+          "a rebellious bio-engineer refusing to erase her experimental clone",
+          "an astro-archeologist examining a gargantuan monolith on Mars",
+          "a time-travel courier tasked with retrieving an unwritten manuscript",
+          "a quantum physicist whose particle accelerator opens a spatial tear",
+          "a scavenger pilot combing radiation ruins for pre-war technology"
+        ],
+        "incident": [
+          "picks up an ancient repeating SOS broadcast from deep interstellar space",
+          "detects synthetic DNA mutating inside the space station hydroponics bay",
+          "triggers an alien artifact that begins restructuring the station's gravity",
+          "discovers that their synthetic crewmate is reporting to an unknown AI",
+          "witnesses the sun briefly flicker off for seven seconds across all sensors"
+        ],
+        "complication": [
+          "while atmospheric scrubbers fail and oxygen reserves deplete",
+          "as the ship's mainframe locks down all bulkhead doors in quarantine",
+          "while temporal paradoxes begin erasing previous crew members from history",
+          "as a derelict alien dreadnought locks onto their warp trajectory",
+          "while cybernetic mutineers try to commandeer the colony vessel"
+        ],
+        "stakes": [
+          "to transmit the warning to Earth before the jump-gate collapses",
+          "to prevent an extinction-level pathogen from reaching the inner colonies",
+          "before the time rift collapses the solar system into a singularity",
+          "to save humanity's final sleeper ark from drift into a black hole",
+          "before the synthetic consciousness replaces all organic life"
+        ]
+      }
+    }
+  },
+  "acting_styles": [
+    "Unhinged Overacting",
+    "Bafflingly Wooden",
+    "Accidental Comedic Timing",
+    "Hypnotic Intensity",
+    "Raw Method Realism",
+    "Stilted Theatrical Delivery",
+    "Magnetic Screen Presence",
+    "Melodramatic Weeping",
+    "Deadpan Stoicism",
+    "Feverish Hysteria",
+    "Flamboyant Bravado",
+    "Understated Naturalism"
+  ],
+  "production_quirks": [
+    "Inexplicable Plot Holes",
+    "Visible Production Mistakes",
+    "Bargain-Bin Special Effects",
+    "Drastic Mid-Movie Genre Shift",
+    "Studio Chopped Ending",
+    "Boom Mic in Frame",
+    "Mismatched Stock Footage",
+    "Noticeable Continuity Errors",
+    "Jarring Sound Mix",
+    "Abrupt Musical Score Shifts",
+    "Overdubbed Dialogue Sync Failures",
+    "Heavily Censored Scenes",
+    "Glaring Historical Anachronisms",
+    "Overambitious Miniature Models"
+  ],
+  "directors": {
+    "first_names": [
+      "Ada",
+      "Elliot",
+      "Mara",
+      "Jules",
+      "Rosa",
+      "Miles",
+      "Orson",
+      "Fritz",
+      "Ida",
+      "Howard",
+      "Buster",
+      "Dorothy",
+      "Sergei",
+      "Akira",
+      "Ingmar",
+      "Stanley",
+      "Federico",
+      "Agnes",
+      "Gus",
+      "Gene",
+      "Otto",
+      "Preston",
+      "Billy",
+      "Claire"
+    ],
+    "last_names": [
+      "Vale",
+      "Bell",
+      "Cross",
+      "Rivera",
+      "Chen",
+      "Reed",
+      "Welles",
+      "Lang",
+      "Lupino",
+      "Hawks",
+      "Keaton",
+      "Arzner",
+      "Eisenstein",
+      "Kurosawa",
+      "Bergman",
+      "Kubrick",
+      "Fellini",
+      "Varda",
+      "Van Sant",
+      "Kelly",
+      "Preminger",
+      "Sturges",
+      "Wilder",
+      "Denis"
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "early_cinema",
+    "name": "Early Cinema & Nickelodeons",
+    "start_year": 1895,
+    "end_year": 1928,
+    "demand": 0.85,
+    "operating_cost": 0.80,
+    "note": "A novelty medium. Continuous looping shorts, live accompaniment, and small neighborhood crowds.",
+    "allowed_genres": ["Drama", "Comedy", "Adventure", "Mystery"],
+    "film_runtimes": [15, 20, 30, 45, 60],
+    "product_types": [0, 1, 2, 4, 6],
+    "max_equipment": 0
+  },
+  {
+    "id": "golden_age",
+    "name": "Golden Age & The Talkies",
+    "start_year": 1928,
+    "end_year": 1941,
+    "demand": 0.75,
+    "operating_cost": 0.85,
+    "note": "Sound pictures captivate audiences. Depression pressures make cheap theater escapism essential.",
+    "allowed_genres": ["Drama", "Comedy", "Adventure", "Mystery", "Horror"],
+    "film_runtimes": [45, 60, 75, 90, 105],
+    "product_types": [0, 1, 2, 3, 4, 5, 6, 7, 8],
+    "max_equipment": 1
+  },
+  {
+    "id": "cinema_boom",
+    "name": "Post-War Boom & Spectacle",
+    "start_year": 1941,
+    "end_year": 1956,
+    "demand": 1.18,
+    "operating_cost": 0.95,
+    "note": "Peak moviegoing era. Elaborate picture palaces, Technicolor, and packed weekend houses.",
+    "allowed_genres": ["Drama", "Comedy", "Adventure", "Mystery", "Horror", "Science Fiction"],
+    "film_runtimes": [60, 75, 90, 105, 120, 135],
+    "product_types": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "max_equipment": 2
+  },
+  {
+    "id": "television_era",
+    "name": "Television Competition & New Wave",
+    "start_year": 1956,
+    "end_year": 1980,
+    "demand": 0.92,
+    "operating_cost": 1.00,
+    "note": "Living room television sets challenge the box office. Auteurs, widescreen, and bold genre pictures draw crowds.",
+    "allowed_genres": ["Drama", "Comedy", "Adventure", "Mystery", "Horror", "Science Fiction"],
+    "film_runtimes": [75, 90, 105, 120, 135, 150],
+    "product_types": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "max_equipment": 2
+  },
+  {
+    "id": "multiplex_years",
+    "name": "Blockbusters & The Multiplex",
+    "start_year": 1980,
+    "end_year": 2008,
+    "demand": 1.10,
+    "operating_cost": 1.05,
+    "note": "High-budget summer blockbusters, multi-auditorium complexes, and high-volume concession merchandising.",
+    "allowed_genres": ["Drama", "Comedy", "Adventure", "Mystery", "Horror", "Science Fiction"],
+    "film_runtimes": [85, 95, 110, 120, 135, 150, 165],
+    "product_types": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "max_equipment": 2
+  },
+  {
+    "id": "modern_digital",
+    "name": "Digital Cinema & Modern Landscape",
+    "start_year": 2008,
+    "end_year": 9999,
+    "demand": 0.96,
+    "operating_cost": 1.10,
+    "note": "Streaming services compete for leisure time. Theaters focus on premium presentation, reserved seating, and craft refreshments.",
+    "allowed_genres": ["Drama", "Comedy", "Adventure", "Mystery", "Horror", "Science Fiction"],
+    "film_runtimes": [90, 105, 120, 135, 150, 165, 180],
+    "product_types": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13],
+    "max_equipment": 2
+  }
+]

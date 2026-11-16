@@ -1,0 +1,33 @@
+{
+  "weekday_demand": [0.78, 0.78, 0.85, 0.95, 1.18, 1.45, 1.30],
+  "dayparts": [
+    {"name": "Overnight", "start": 0, "end": 6, "demand": 0.18, "audiences": {"families": 0.02, "adults": 0.28, "night_owls": 0.70}},
+    {"name": "Morning", "start": 6, "end": 12, "demand": 0.50, "audiences": {"families": 0.65, "adults": 0.30, "night_owls": 0.05}},
+    {"name": "Matinee", "start": 12, "end": 18, "demand": 0.90, "audiences": {"families": 0.50, "adults": 0.40, "night_owls": 0.10}},
+    {"name": "Evening", "start": 18, "end": 22, "demand": 1.25, "audiences": {"families": 0.20, "adults": 0.60, "night_owls": 0.20}},
+    {"name": "Late show", "start": 22, "end": 24, "demand": 0.70, "audiences": {"families": 0.05, "adults": 0.35, "night_owls": 0.60}}
+  ],
+  "audiences": {
+    "families": {
+      "taste": {"Drama": 0.95, "Comedy": 1.35, "Adventure": 1.30, "Mystery": 0.80, "Horror": 0.35, "Science Fiction": 1.05},
+      "snacks": {"packaged": 1.2, "popcorn": 1.1, "soda": 0.9}
+    },
+    "adults": {
+      "taste": {"Drama": 1.25, "Comedy": 1.10, "Adventure": 1.00, "Mystery": 1.25, "Horror": 0.90, "Science Fiction": 1.00},
+      "snacks": {"packaged": 0.9, "popcorn": 1.0, "soda": 1.0}
+    },
+    "night_owls": {
+      "taste": {"Drama": 0.70, "Comedy": 1.05, "Adventure": 0.90, "Mystery": 1.10, "Horror": 1.50, "Science Fiction": 1.30},
+      "snacks": {"packaged": 1.1, "popcorn": 0.8, "soda": 1.3}
+    }
+  },
+  "film_pools": {
+    "all": {"label": "All available films", "min_budget": 0, "max_budget": 1000000000},
+    "indie": {"label": "Indie / small productions", "min_budget": 0, "max_budget": 500000},
+    "mid": {"label": "Mid-budget productions", "min_budget": 500000, "max_budget": 900000},
+    "big": {"label": "Big-budget productions", "min_budget": 900000, "max_budget": 1000000000}
+  },
+  "staff": {"monthly_wage": 1400, "hours_per_person": 160, "workers_per_screen_hour": 1},
+  "rooms": {"build_base": 8000, "build_per_seat": 65, "monthly_upkeep": 300, "max_rooms": 12},
+  "studio_royalty": 0.50
+}

@@ -1,0 +1,176 @@
+{
+  "events": {
+    "festival": {
+      "title": "A place for local film",
+      "text": "An independent film club asks you to sponsor its next program.",
+      "choices": {
+        "sponsor": {
+          "label": "Sponsor the program ($900); build a community partnership",
+          "cost": 900,
+          "flag": "festival_partner",
+          "reputation": 3
+        },
+        "decline": {
+          "label": "Decline the invitation",
+          "cost": 0,
+          "flag": "festival_declined",
+          "reputation": 0
+        }
+      }
+    },
+    "festival_return": {
+      "title": "The club comes back",
+      "requires": "festival_partner",
+      "text": "Your sponsored club has attracted a regional festival. Choose how to host it.",
+      "choices": {
+        "host": {
+          "label": "Host the festival ($1,200); +18% attendance this month",
+          "cost": 1200,
+          "flag": "festival_hosted",
+          "reputation": 5,
+          "demand": 0.18
+        },
+        "small": {
+          "label": "Offer a modest reception ($200); +5% attendance this month",
+          "cost": 200,
+          "flag": "festival_reception",
+          "reputation": 2,
+          "demand": 0.05
+        },
+        "decline": {
+          "label": "Pass on hosting this year",
+          "cost": 0,
+          "flag": "festival_passed",
+          "reputation": 0
+        }
+      }
+    },
+    "midnight_craze": {
+      "title": "The Midnight Picture Club",
+      "text": "Local university students petition for late-night cult and horror double features on weekends.",
+      "choices": {
+        "permit": {
+          "label": "Sanction midnight screenings ($350 in late staffing); +12% attendance this month",
+          "cost": 350,
+          "flag": "midnight_circuit",
+          "reputation": 4,
+          "demand": 0.12
+        },
+        "refuse": {
+          "label": "Keep regular closing hours to protect the venue",
+          "cost": 0,
+          "flag": "regular_hours_kept",
+          "reputation": 0
+        }
+      }
+    },
+    "heatwave_rush": {
+      "title": "Summer Heatwave",
+      "text": "Sweltering heat blankets the region. Residents seek refuge in air-conditioned public spaces.",
+      "choices": {
+        "crank_ac": {
+          "label": "Overhaul ventilation cooling ($600 power and coolant); +20% attendance surge",
+          "cost": 600,
+          "flag": "chilled_oasis",
+          "reputation": 3,
+          "demand": 0.20
+        },
+        "standard": {
+          "label": "Maintain standard thermostat settings ($0); +6% natural turnout",
+          "cost": 0,
+          "flag": "standard_cooling",
+          "reputation": 0,
+          "demand": 0.06
+        }
+      }
+    },
+    "civic_premiere": {
+      "title": "Civic Benefit Premiere",
+      "text": "The mayor's office proposes co-hosting a charity premiere for the children's hospital fund.",
+      "choices": {
+        "cohost": {
+          "label": "Donate lobby and screening hall ($800); prestige and community goodwill",
+          "cost": 800,
+          "flag": "civic_benefactor",
+          "reputation": 8,
+          "demand": 0.08
+        },
+        "decline": {
+          "label": "Politely decline due to tight booking commitments",
+          "cost": 0,
+          "flag": "civic_declined",
+          "reputation": -1
+        }
+      }
+    },
+    "censorship_board": {
+      "title": "The Decency League Inquest",
+      "text": "A vocal community morality board complains that a scheduled release offends public sensibilities.",
+      "choices": {
+        "defend": {
+          "label": "Defend artistic expression ($300 legal council); earns fierce loyalty among film buffs",
+          "cost": 300,
+          "flag": "free_expression_champion",
+          "reputation": 4,
+          "demand": 0.10
+        },
+        "cave": {
+          "label": "Agree to voluntary cuts; placates the board but disappoints purists",
+          "cost": 0,
+          "flag": "board_appeased",
+          "reputation": -2,
+          "demand": -0.05
+        }
+      }
+    },
+    "concession_expo": {
+      "title": "National Concessionaires Expo",
+      "text": "A trade convention invites your management team to attend workshops on snack margins and display design.",
+      "choices": {
+        "attend": {
+          "label": "Send staff to the trade expo ($750 travel & passes); boost merchandising know-how",
+          "cost": 750,
+          "flag": "expo_trained",
+          "reputation": 2,
+          "demand": 0.05
+        },
+        "skip": {
+          "label": "Keep all staff on the counter floor at home",
+          "cost": 0,
+          "flag": "expo_skipped",
+          "reputation": 0
+        }
+      }
+    },
+    "critic_spotlight": {
+      "title": "Syndicated Column Spotlight",
+      "text": "A distinguished metropolitan arts columnist selects your flagship theater for an architectural tribute.",
+      "choices": {
+        "celebrate": {
+          "label": "Host a press reception with champagne and hors d'oeuvres ($500); +15% attendance",
+          "cost": 500,
+          "flag": "press_favorite",
+          "reputation": 6,
+          "demand": 0.15
+        },
+        "modest": {
+          "label": "Issue a gracious press release ($0); +5% attendance",
+          "cost": 0,
+          "flag": "quiet_praise",
+          "reputation": 2,
+          "demand": 0.05
+        }
+      }
+    }
+  },
+  "timeline": [
+    [1, "festival"],
+    [4, "festival_return"],
+    [8, "midnight_craze"],
+    [12, "heatwave_rush"],
+    [16, "civic_premiere"],
+    [20, "censorship_board"],
+    [24, "concession_expo"],
+    [30, "critic_spotlight"]
+  ]
+}

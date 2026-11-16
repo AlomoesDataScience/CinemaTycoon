@@ -1,0 +1,278 @@
+{
+  "producers": {
+    "Fairground": {
+      "company": "Fairground Foods, Inc.",
+      "specialty": "Traditional carnival and concession standards",
+      "reputation": 70
+    },
+    "Velvet": {
+      "company": "Velvet Confectionery Company",
+      "specialty": "High-grade chocolates and premium poppers",
+      "reputation": 88
+    },
+    "Golden": {
+      "company": "Golden Provision Company",
+      "specialty": "High-yield kernels and commercial supplies",
+      "reputation": 76
+    },
+    "Moonlight": {
+      "company": "Moonlight Snack Corporation",
+      "specialty": "Chilled beverage systems and late-night snacks",
+      "reputation": 82
+    },
+    "Orchard": {
+      "company": "Orchard Food Company",
+      "specialty": "Fruit candies, drops, and metered dispensers",
+      "reputation": 74
+    },
+    "Starlight": {
+      "company": "Starlight Refreshments, Inc.",
+      "specialty": "Value fountain tanks and neighborhood supplies",
+      "reputation": 65
+    }
+  },
+  "product_types": [
+    {
+      "index": 0,
+      "kind": "Popcorn",
+      "category": "packaged",
+      "ingredient_kind": "packaged",
+      "service_name": "Boxed Buttered Popcorn",
+      "unit": "box",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.05,
+      "yield_per_unit": 1,
+      "flavors": [65, 90, 0, 5, 0]
+    },
+    {
+      "index": 1,
+      "kind": "Candy",
+      "category": "packaged",
+      "ingredient_kind": "packaged",
+      "service_name": "Chewy Fruit Candies",
+      "unit": "box",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.05,
+      "yield_per_unit": 1,
+      "flavors": [0, 5, 10, 95, 15]
+    },
+    {
+      "index": 2,
+      "kind": "Lemon drops",
+      "category": "packaged",
+      "ingredient_kind": "packaged_snack",
+      "service_name": "Sour Lemon Drops",
+      "unit": "box",
+      "deal": "vendor",
+      "commission": 0.25,
+      "spoilage_rate": 0.05,
+      "yield_per_unit": 1,
+      "flavors": [0, 0, 0, 75, 85]
+    },
+    {
+      "index": 3,
+      "kind": "Dark chocolate",
+      "category": "packaged",
+      "ingredient_kind": "packaged",
+      "service_name": "Dark Chocolate Morsels",
+      "unit": "box",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.05,
+      "yield_per_unit": 1,
+      "flavors": [5, 0, 85, 55, 0]
+    },
+    {
+      "index": 4,
+      "kind": "Roasted nuts",
+      "category": "packaged",
+      "ingredient_kind": "packaged_snack",
+      "service_name": "Salted Roasted Peanuts",
+      "unit": "box",
+      "deal": "vendor",
+      "commission": 0.35,
+      "spoilage_rate": 0.05,
+      "yield_per_unit": 1,
+      "flavors": [85, 60, 15, 10, 0]
+    },
+    {
+      "index": 5,
+      "kind": "Caramel corn",
+      "category": "packaged",
+      "ingredient_kind": "packaged",
+      "service_name": "Crunchy Caramel Corn",
+      "unit": "box",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.05,
+      "yield_per_unit": 1,
+      "flavors": [35, 45, 5, 90, 0]
+    },
+    {
+      "index": 6,
+      "kind": "Popping kernels",
+      "category": "kernels",
+      "ingredient_kind": "kernels",
+      "service_name": "Plain popcorn",
+      "unit": "bag",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.02,
+      "yield_per_unit": 24,
+      "flavors": [65, 55, 0, 5, 0]
+    },
+    {
+      "index": 7,
+      "kind": "Cola syrup",
+      "category": "syrup",
+      "ingredient_kind": "cola_syrup",
+      "service_name": "Fountain Cola",
+      "unit": "syrup pack",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.02,
+      "yield_per_unit": 45,
+      "flavors": [0, 0, 35, 85, 20]
+    },
+    {
+      "index": 8,
+      "kind": "Dairy butter",
+      "category": "topping",
+      "ingredient_kind": "dairy_butter",
+      "service_name": "Buttered popcorn",
+      "unit": "tub",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.20,
+      "yield_per_unit": 30,
+      "flavors": [90, 55, 0, 5, 0]
+    },
+    {
+      "index": 9,
+      "kind": "Butter-flavored oil",
+      "category": "topping",
+      "ingredient_kind": "butter_oil",
+      "service_name": "Butter-flavored popcorn",
+      "unit": "tub",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.02,
+      "yield_per_unit": 70,
+      "flavors": [65, 65, 0, 5, 0]
+    },
+    {
+      "index": 10,
+      "kind": "Savory seasoning",
+      "category": "topping",
+      "ingredient_kind": "savory_seasoning",
+      "service_name": "Savory popcorn",
+      "unit": "tub",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.02,
+      "yield_per_unit": 100,
+      "flavors": [95, 85, 0, 0, 10]
+    },
+    {
+      "index": 11,
+      "kind": "Butter-style spread",
+      "category": "topping",
+      "ingredient_kind": "butter_spread",
+      "service_name": "Butter-style popcorn",
+      "unit": "tub",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.08,
+      "yield_per_unit": 50,
+      "flavors": [70, 45, 0, 5, 0]
+    },
+    {
+      "index": 12,
+      "kind": "Premium popping kernels",
+      "category": "kernels",
+      "ingredient_kind": "kernels",
+      "service_name": "Plain popcorn",
+      "unit": "bag",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.02,
+      "yield_per_unit": 28,
+      "flavors": [75, 45, 0, 10, 0]
+    },
+    {
+      "index": 13,
+      "kind": "Citrus soda syrup",
+      "category": "syrup",
+      "ingredient_kind": "citrus_syrup",
+      "service_name": "Fountain Citrus Soda",
+      "unit": "syrup pack",
+      "deal": "wholesale",
+      "commission": 0.25,
+      "spoilage_rate": 0.02,
+      "yield_per_unit": 45,
+      "flavors": [0, 0, 0, 85, 65]
+    }
+  ],
+  "machines": {
+    "popcorn": {
+      "basic": {
+        "name": "Fairground kettle popper",
+        "cost": 0,
+        "yield": 1.0,
+        "capacity": 1800,
+        "quality": 0,
+        "upkeep": 45
+      },
+      "efficient": {
+        "name": "Golden high-yield popper",
+        "cost": 2300,
+        "yield": 1.25,
+        "capacity": 3200,
+        "quality": 3,
+        "upkeep": 75
+      },
+      "premium": {
+        "name": "Velvet precision popper",
+        "cost": 3600,
+        "yield": 1.1,
+        "capacity": 2600,
+        "quality": 15,
+        "upkeep": 110
+      }
+    },
+    "soda": {
+      "basic": {
+        "name": "Starlight tank fountain",
+        "cost": 0,
+        "yield": 1.0,
+        "capacity": 500,
+        "quality": 0,
+        "upkeep": 35
+      },
+      "efficient": {
+        "name": "Orchard metered fountain",
+        "cost": 1900,
+        "yield": 1.25,
+        "capacity": 900,
+        "quality": 3,
+        "upkeep": 55
+      },
+      "premium": {
+        "name": "Moonlight chilled fountain",
+        "cost": 3100,
+        "yield": 1.1,
+        "capacity": 750,
+        "quality": 15,
+        "upkeep": 85
+      }
+    }
+  },
+  "topping_notes": {
+    "Dairy butter": "Rich flavor; high cost, lower yield and 20% monthly spoilage.",
+    "Butter-flavored oil": "Lower cost and high yield; less rich, with 2% monthly spoilage.",
+    "Savory seasoning": "Strong savory/salty flavor and high yield; may miss sweet-loving audiences. 2% spoilage.",
+    "Butter-style spread": "Moderate cost, flavor and yield; 8% monthly spoilage."
+  }
+}

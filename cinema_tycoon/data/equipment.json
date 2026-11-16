@@ -1,0 +1,26 @@
+[
+  {
+    "tier": 0,
+    "name": "Standard projection",
+    "cost": 0,
+    "maintenance": 180,
+    "appeal": 0.0,
+    "description": "Reliable 35mm optical projection with standard mono optical soundtrack. Everyday neighborhood cinema workhorse."
+  },
+  {
+    "tier": 1,
+    "name": "Enhanced picture & sound",
+    "cost": 6500,
+    "maintenance": 310,
+    "appeal": 0.06,
+    "description": "High-lumen xenon lamps, precision coated lenses, and multi-channel surround amplification for noticeably sharper presentation."
+  },
+  {
+    "tier": 2,
+    "name": "Premium auditorium",
+    "cost": 12000,
+    "maintenance": 510,
+    "appeal": 0.12,
+    "description": "Grand panoramic curved screen, acoustic wall treatments, and deep low-frequency subwoofers that make audiences feel every rumble."
+  }
+]
